@@ -15,7 +15,7 @@ A website project for ICS2609: Applications Development and Emerging Technologie
 1. Install Netbeans.
 2. Clone this repository.
 3. Connect derbyclient.jar in the classpath.
-4. Change database configuration in the .env.example file.
+4. Copy database configuration in the .env.example file to your MyCICS database.
 5. Run the following code through Glassfish server.
 
 
