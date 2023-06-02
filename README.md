@@ -29,3 +29,4 @@ A website project for ICS2609: Applications Development and Emerging Technologie
 - Additionally, Admins can delete student accounts from the system.
 
 ## Interface
+[Screenshots](https://github.com/JoshuaEntrata/MYCICS-Student-Portal/blob/main/screenshots.md)
