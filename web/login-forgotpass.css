@@ -1,0 +1,134 @@
+@import 'https://fonts.googleapis.com/css?family=Montserrat:300, 400, 700&display=swap';
+
+* {
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+html, body, .wrapper {
+    height: 100%;
+}
+
+body {
+    display: grid;
+    place-items: center;
+    margin: 0;
+    padding: 0 24px;
+    background-image: url(./img/Circuit\ Board.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #252525;
+    /*animation: rotate 6s infinite alternate linear;*/
+    box-shadow: rgba(0, 0, 0, 0.1);
+}
+
+body {
+	background-color: #f9f9f9;
+}
+
+body::-webkit-scrollbar {
+	width: 12px;
+}
+
+body::-webkit-scrollbar-track {
+	background: #505050;
+}
+
+body::-webkit-scrollbar-thumb {
+	background-color: crimson;
+	border-radius: 20px;
+	border: 3px solid #505050;
+}
+
+@media (width >= 500px) {
+    .body {
+        padding: 0;
+    }
+}
+
+.login-card, .forgot-pass-card {
+    position: relative;
+    z-index: 3;
+    width: 100%;
+    margin: 0 20px;
+    padding: 70px 30px 44px;
+    border-radius: 1.25rem;
+    background: #f9f9f9;
+    text-align: center;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+@media (width >= 500px) {
+    .login-card, .forgot-pass-card {
+        margin: 0;
+        width: 400px;
+    }
+}
+
+.login-card > h2, .forgot-pass-card > h2 {
+    font-size: 36px;
+    font-weight: 600;
+    margin: 0 0 12px;
+}
+
+.login-card > h3, .forgot-pass-card > h3 {
+    color: rgba(0, 0, 0, 0.38);
+    margin: 0 0 30px;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.login-form, .forgot-pass-form {
+    width: 100%;
+    margin: 0;
+    display: grid;
+    gap: 16px;
+}
+
+.login-form > input, .login-form > button, .forgot-pass-form > input, .forgot-pass-form > button {
+    width: 100%;
+    height: 56px;
+}
+
+.login-form > input, .forgot-pass-form > input {
+    border: 2px solid #ebebeb;
+    border-radius: 0.5rem;
+    font-family: inherit;
+    font-size: 16px;
+    padding: 0 16px;
+    transition: all 0.3s ease;
+}
+
+.login-form input:focus, .forgot-pass-form input:focus {
+    border-color: #252525;
+}
+
+.login-form > button, .forgot-pass-form > button {
+    cursor: pointer;
+    width: 100%;
+    height: 56px;
+    padding: 0 16px;
+    border-radius: 0.5rem;
+    background: crimson;
+    color: #f9f9f9;
+    border: 0;
+    font-family: inherit;
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 2px;
+    transition: all 0.3s ease;
+    background: #505050;
+}
+
+.login-form > button:hover, .forgot-pass-form > button:hover {
+    background: crimson;
+}
+
+.login-form > a, .login-form > .account > p > a, .forgot-pass-form > a, .forgot-pass-form > .account > p > a {
+    color: crimson;
+    font-size: 1rem;
+    text-align: left;
+    text-decoration: none;
+    margin-bottom: 6px;
+}

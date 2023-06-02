@@ -1,0 +1,266 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 17 May 2023, 2:45:55 pm
+    Author     : JOSHUA KYLE
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;900&display=swap");
+
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  margin-top: 60px;
+  position: relative;
+  min-height: 100vh;
+  background-color: #f9f9f9;
+}
+
+.page {
+  display: block;
+  margin: 0 auto;
+  gap: 20px;
+  padding-bottom: 130px;
+  width: 90%;
+}
+
+/* PROFILE SECTION */
+.profile {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 50px;
+}
+
+.profile-header {
+  position: relative;
+  width: 100vw;
+  height: 300px;
+  background-size: cover;
+}
+
+.profile-pic {
+  position: relative;
+  top: -120px;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+
+  border: 10px solid #f9f9f9;
+  border-radius: 50%;
+}
+
+.profile h1 {
+  position: relative;
+  top: -120px;
+  font-size: 42px;
+  color: black;
+  text-transform: uppercase;
+}
+
+/* END PROFILE SECTION */
+
+.cards {
+  position: relative;
+  top: -100px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.main-card,
+.side-card {
+  width: 100%;
+  padding: 1rem;
+}
+
+.side-card {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+/* TABLES SECTION */
+.card {
+  height: auto;
+
+  border: 1px solid black;
+  border-radius: 10px;
+
+  margin: 0;
+  padding: 40px;
+
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.card h3 {
+  font-size: 28px;
+  margin-bottom: 10px;
+  color: crimson;
+}
+
+table {
+  border-spacing: 2px;
+  width: 100%;
+  text-align: left;
+  min-width: 100px;
+  table-layout: fixed;
+}
+
+table,
+th,
+td {
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-collapse: collapse;
+  padding: 10px;
+}
+
+th {
+  width: 30%;
+  font-weight: 600;
+}
+
+th,
+td {
+  font-size: 16px;
+  word-wrap: break-word;
+}
+
+td:first-of-type {
+  width: 2%;
+  padding: 0;
+  text-align: center;
+}
+
+input, select {
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  background: transparent;
+}
+/* END TABLES SECTION */
+
+/* BUTTONS */
+.buttons {
+  margin: 0 auto;
+  display: flex;
+  gap: 20px;
+
+  position: relative;
+  top: -120px;
+}
+
+button {
+  border-radius: 10px;
+  font-size: 21px;
+  cursor: pointer;
+  transition: 0.3s ease;
+  background: crimson;
+  border: 2px solid transparent;
+  font-weight: 600;
+  align-items: center;
+  padding: 10px 20px;
+  color: white;
+
+  margin: 40px 20px 0;
+  position: relative;
+  border-radius: 25px;
+}
+
+.cancel {
+  background: white;
+  border: 2px solid black;
+  color: black;
+}
+
+.save {
+  background: black;
+}
+
+button:hover {
+  position: relative;
+  background: white;
+  color: crimson;
+  border: 2px solid crimson;
+}
+
+/* END BUTTONS */
+
+@media only screen and (max-width: 768px) {
+  .profile {
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .profile h1 {
+    font-size: 36px;
+  }
+
+  button {
+    font-size: 15px;
+    top: -120px;
+    margin-top: 20px;
+  }
+
+  .card h3 {
+    font-size: 21px;
+  }
+
+  th,
+  td {
+    font-size: 11px;
+  }
+}
+
+@media only screen and (max-width: 415px) {
+  .page {
+    padding-bottom: 320px;
+  }
+
+  th,
+  td {
+    font-size: 8px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  body {
+    margin-top: 150px;
+  }
+}
+
+/* tablet breakpoint */
+@media (min-width: 768px) {
+  .main-card {
+    width: calc(100% / 2);
+  }
+  .side-card {
+    width: calc(100% / 2);
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .profile h1 {
+    font-size: 36px;
+  }
+
+  .card h3 {
+    font-size: 21px;
+  }
+
+  th,
+  td {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  th,
+  td {
+    font-size: 12px;
+  }
+}
