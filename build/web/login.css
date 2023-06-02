@@ -1,0 +1,211 @@
+@import "https://fonts.googleapis.com/css?family=Montserrat:300, 400, 700&display=swap";
+
+* {
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+html,
+body,
+.wrapper {
+  height: 100%;
+}
+
+body {
+  display: grid;
+  place-items: center;
+  margin: 0;
+  padding: 0 24px;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='800' preserveAspectRatio='none' viewBox='0 0 1440 800'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1007%26quot%3b)' fill='none'%3e%3crect width='1440' height='800' x='0' y='0' fill='rgba(220%2c 20%2c 60%2c 1)'%3e%3c/rect%3e%3cpath d='M0%2c506.232C96.771%2c509.849%2c206.122%2c494.53%2c272.5%2c424.019C337.454%2c355.02%2c294.123%2c238.498%2c333.277%2c152.203C372.274%2c66.253%2c491.221%2c22.68%2c497.328%2c-71.505C503.444%2c-165.837%2c434.066%2c-252.057%2c363.572%2c-315.037C297.365%2c-374.187%2c203.372%2c-378.158%2c119.983%2c-408.626C29.536%2c-441.672%2c-53.529%2c-523.554%2c-147.311%2c-501.696C-241.172%2c-479.82%2c-307.419%2c-388.209%2c-346.19%2c-299.975C-380.44%2c-222.03%2c-335.703%2c-134.258%2c-345.908%2c-49.734C-355.769%2c31.947%2c-420.07%2c104.001%2c-404.72%2c184.83C-388.032%2c272.705%2c-329.763%2c348.501%2c-259.717%2c404.127C-185.365%2c463.172%2c-94.879%2c502.686%2c0%2c506.232' fill='%23b91132'%3e%3c/path%3e%3cpath d='M1440 1217.349C1519.985 1208.643 1594.133 1186.594 1668.092 1154.9180000000001 1755.865 1117.325 1865.333 1098.901 1911.593 1015.37 1958.057 931.471 1939.252 821.776 1901.384 733.663 1867.341 654.45 1777.175 621.626 1716.184 560.685 1660.859 505.406 1627.441 431.397 1559.717 392.281 1479.979 346.227 1390.642 310.972 1298.976 319.716 1198.148 329.334 1085.07 359.323 1028 443 971.255 526.201 1013.626 637.935 1013.2570000000001 738.644 1012.9449999999999 823.953 997.826 908.544 1026.001 989.067 1055.952 1074.664 1098.183 1164.52 1177.596 1208.309 1255.821 1251.443 1351.196 1227.0149999999999 1440 1217.349' fill='%23ec2b51'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1007'%3e%3crect width='1440' height='800' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #252525;
+  box-shadow: rgba(0, 0, 0, 0.1);
+}
+
+body::-webkit-scrollbar {
+  width: 12px;
+}
+
+body::-webkit-scrollbar-track {
+  background: #505050;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: crimson;
+  border-radius: 20px;
+  border: 3px solid #505050;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  width: 70%;
+  height: auto;
+  margin: auto auto;
+  background: #ffffff;
+  box-shadow: 0px 2px 6px -1px rgba(0, 0, 0, 0.12);
+  border-radius: 15px;
+}
+
+.left {
+  min-width: 40%;
+  height: auto;
+  min-height: 100%;
+  position: relative;
+
+  background-image: linear-gradient(
+      to bottom,
+      rgba(179, 180, 196, 0.192),
+      rgba(44, 42, 42, 0.74)
+    ),
+    url(./img/frassati.jpg);
+  background-size: cover;
+  background-position: center;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+.right {
+  min-width: 60%;
+  padding: 10px 80px 40px;
+
+  background: #fefefe;
+  display: flex;
+  flex-direction: column;
+
+  border-radius: 15px;
+}
+
+.right > img {
+  width: 200px;
+  height: 200px;
+  display: block;
+  margin: 0 auto;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.label-input {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.label-input > label {
+  font-size: 18px;
+}
+
+.label-input > input {
+  border: 2px solid #ebebeb;
+  border-radius: 0.5rem;
+  font-family: inherit;
+  font-size: 16px;
+  padding: 0 16px;
+  transition: all 0.3s ease;
+
+  width: 100%;
+  height: 46px;
+}
+
+.login-form > a {
+  color: crimson;
+  font-size: 15px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.login-form > button {
+  cursor: pointer;
+  width: 100%;
+  height: 56px;
+  padding: 0 16px;
+  border-radius: 0.5rem;
+  background: crimson;
+  color: #f9f9f9;
+  border: 0;
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: 2px;
+  transition: all 0.3s ease;
+  background: #505050;
+}
+
+.login-form > button:hover {
+  background: crimson;
+}
+
+.account > p,
+.signup {
+  font-size: 18px;
+  text-align: center;
+}
+
+.signup {
+  text-decoration: none;
+  color: crimson;
+}
+
+.login-form input:focus {
+  border-color: #252525;
+}
+
+@media screen and (max-width: 1024px) {
+  .container {
+    width: 80%;
+  }
+
+  .right {
+    padding: 20px 30px 40px;
+  }
+
+  .right > img {
+    width: 150px;
+    height: 150px;
+  }
+
+  .label-input > label {
+    font-size: 14px;
+  }
+
+  .label-input > input {
+    font-size: 12px;
+    padding: 0 12px;
+
+    width: 100%;
+    height: 36px;
+  }
+
+  .login-form > a {
+    font-size: 12px;
+  }
+
+  .login-form > button {
+    height: 46px;
+    padding: 0 10px;
+    font-size: 14px;
+  }
+
+  .account > p {
+    font-size: 14px;
+  }
+
+  .signup {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .left {
+    display: none;
+  }
+  .right {
+    width: 100%;
+  }
+}

@@ -1,0 +1,109 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 1 Jun 2023, 5:33:32 pm
+    Author     : JOSHUA KYLE
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;900&display=swap");
+
+* {
+  font-family: "Montserrat", sans-serif;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+body {
+  position: relative;
+  min-height: 100vh;
+  height: auto;
+  background-color: #f9f9f9;
+}
+
+.page {
+  display: block;
+  margin: 150px auto 70px;
+
+  height: auto;
+  width: 90%;
+
+  border: 1px solid black;
+  border-radius: 10px;
+
+  padding: 40px;
+  overflow-x: auto;
+
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.page h1 {
+  text-align: left;
+  font-size: 32px;
+  margin-bottom: 50px;
+}
+
+table {
+  table-layout: fixed;
+  border-collapse: collapse;
+  min-width: 100%;
+
+  font-size: 21px;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 10px 15px;
+  margin: 0 15px;
+}
+
+td {
+  font-size: 18px;
+}
+
+thead tr {
+  border-bottom: 3px solid rgba(63, 63, 63, 0.2);
+}
+
+thead th:last-child {
+    text-align: center;
+}
+
+
+tbody tr {
+  border-bottom: 1px solid rgba(63, 63, 63, 0.2);
+}
+
+tbody tr:hover td {
+  background-color: rgba(63, 63, 63, 0.2);
+}
+
+tbody a:hover {
+  color: crimson;
+}
+
+tbody td:last-child {
+  text-align: center;
+  cursor: pointer;
+  font-weight: bolder;
+}
+
+tbody tr:last-child {
+  border-bottom: none;
+}
+
+thead th:first-child,
+tbody td:first-child {
+  padding-left: 10px;
+}
+
+tbody tr:nth-of-type(odd) {
+  background-color: rgba(220, 20, 60, 0.2);
+}
+
+body::after {
+  content: "";
+  display: block;
+  height: 200px; /* Set same as footer's height */
+}
