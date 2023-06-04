@@ -4,13 +4,13 @@
 ### Desktop View
 ![image](https://github.com/JoshuaEntrata/MYCICS-Student-Portal/assets/85151615/d2b3d806-1503-43a0-a705-bf65764162d8)
 ### Mobile View
-![image](https://github.com/JoshuaEntrata/MYCICS-Student-Portal/assets/85151615/c8b9d9a4-20dc-4d56-9d33-45efc029b544)
+![image](https://github.com/JoshuaEntrata/MYCICS-Student-Portal/assets/85151615/32a0dc13-980f-4476-b813-5fda1f33c704)
 
 ## Login
 ### Desktop View
 ![image](https://github.com/JoshuaEntrata/MYCICS-Student-Portal/assets/85151615/5cef4852-1a44-4d32-8b4c-ed0cf1e6ba64)
 ### Mobile View
-![image](https://github.com/JoshuaEntrata/MYCICS-Student-Portal/assets/85151615/cc04ef4e-bf63-4417-b8c6-811466808e0a)
+![image](https://github.com/JoshuaEntrata/MYCICS-Student-Portal/assets/85151615/6ae3b2f8-f9ad-4dd4-8465-f820128ff07d))
 
 
 ## Signup
@@ -18,8 +18,8 @@
 ![image](https://github.com/JoshuaEntrata/MYCICS-Student-Portal/assets/85151615/a93e9713-ae0e-4b06-a57c-0ef7f7162ee9)
 ![image](https://github.com/JoshuaEntrata/MYCICS-Student-Portal/assets/85151615/8bb972ea-40a3-4594-84b3-669b8117be5c)
 ### Mobile View
-![image](https://github.com/JoshuaEntrata/MYCICS-Student-Portal/assets/85151615/dc7882f1-25ab-4719-806d-021ff7d4b448)
-![image](https://github.com/JoshuaEntrata/MYCICS-Student-Portal/assets/85151615/92c1c955-45f2-49c3-952e-32dbfd8fcc40)
+![image](https://github.com/JoshuaEntrata/MYCICS-Student-Portal/assets/85151615/0f8c11e7-dcf5-4f68-94c6-ff7d5b34d44b)
+![image](https://github.com/JoshuaEntrata/MYCICS-Student-Portal/assets/85151615/e6ee8040-c6b6-4b60-9cbb-9195af96058d)
 
 ## Forgot Password
 ### Desktop View
