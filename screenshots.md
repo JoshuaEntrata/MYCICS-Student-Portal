@@ -2,7 +2,7 @@
 
 ## Landing
 ### Desktop View
-![image](https://github.com/JoshuaEntrata/MYCICS-Student-Portal/assets/85151615/517efd20-66d1-401d-bdc0-c6aa1a2b4d3a)
+![image](https://github.com/JoshuaEntrata/MYCICS-Student-Portal/assets/85151615/d2b3d806-1503-43a0-a705-bf65764162d8)
 ### Mobile View
 ![image](https://github.com/JoshuaEntrata/MYCICS-Student-Portal/assets/85151615/c8b9d9a4-20dc-4d56-9d33-45efc029b544)
 
